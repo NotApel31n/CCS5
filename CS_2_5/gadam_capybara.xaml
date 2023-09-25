@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="CS_2_5.gadam_capybara"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CS_2_5"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <Image x:Name="shish_capy" Source="/1684249003_new_preview_2544242819_preview_1skk.jpg" Height="200" VerticalAlignment="Top"/>
+        <CheckBox x:Name="boxxx" Content="Ладно(" VerticalAlignment="Bottom" FontSize="24" HorizontalAlignment="Center" VerticalContentAlignment="Center" Checked="boxxx_Checked" Unchecked="boxxx_Unchecked"/>
+    </Grid>
+</UserControl>
